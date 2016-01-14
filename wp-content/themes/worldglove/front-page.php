@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header();    ?>
 <div class="wrapper row1">   
   <header id="header" class="clear">
    <p class="fl_right"><img src="<?php echo get_template_directory_uri(); ?>/images/footer_img.png" width="165" height="23" alt=""></p><br>  
