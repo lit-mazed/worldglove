@@ -1,4 +1,4 @@
-<div class="wrapper row3">
+<div class="wrapper row3" >
     <footer id="footer" class="clear">
       <div class="line"></div>      
       <p class="fl_left"> Copyright World Glove Co Ltd. All Rights Reserved.</p>   
