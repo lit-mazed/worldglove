@@ -7,8 +7,8 @@
     <nav>
       <ul>
         <li><a href="http://worldglove.localhost/" id="active">HOME&nbsp;</a></li>
-        <li><a href="#">TOPICS&nbsp;</a></li>
-        <li><a href="#">PRODUCTS&nbsp;</a></li>
+        <li><a href="http://worldglove.localhost/topics/">TOPICS&nbsp;</a></li>
+        <li><a href="http://worldglove.localhost/product/">PRODUCTS&nbsp;</a></li>
         <li><a href="http://worldglove.localhost/worldgolve/">WORLD GLOVE&nbsp;</a></li>        
         <li><a href="http://worldglove.localhost/shoplist/">SHOP LIST&nbsp;</a></li>
         <li><a href="http://worldglove.localhost/manufacture/" >MANUFACTURE&nbsp;</a></li>

@@ -68,28 +68,30 @@ Template Name:001
             </nav>
         </div>
     </aside>
-  <div id="content">
+
+     
+             
+               <div id="content">
   <div class="bmc"> 
-    <span>||　001 Standard</span><span ><a href=""></a><span><a href="" class="bmc-r">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt="" align="right"></a>   
+    <span></span><span ><a href=""></a><span><a href="" class="bmc-r"><img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt="" align="right"></a>   
     <table class="table">
         <tbody>
             <tr>
                  <p><span class="img  noborder "><img src="<?php echo get_template_directory_uri(); ?>/images/000_1.png" width="670px" alt="" style="display: inline;" kasperskylab_antibanner="on">
-                 </span><span>モイスト・コート「001 スタンダード」は、保湿力や通気性などの機能を充実させながら、デザインにもこだわった「潤い手袋」。<br>
-                 カラフルで楽しい8色のバリエーションの中から、気分やファッションに合わせて、いくつも持っていたいアイテムです。</span>
+                 </span><span></span>
                  </p>
             </tr>
                 <td class="cmc set-1">
                     <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/000_2.jpg" width="210" height="165" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/0002.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                    繊維に特殊加工されたコラーゲン・アミノ酸<br>によりお肌のうるおいを保ち続けます。
+                    
                 </td>
                 <td class="cmc set-1">
                     <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/000_3.jpg" width="210" height="165" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    優しいフィット感が特長。手首は締めつけない編み方で、袖はルーズなデザインです。                    
+                                       
                 </td>
                 <td class="cmc set-1">
                     <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/000_3_2.jpg" width="210" height="165" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    8つのカラーバリエーション（CANDY 8 COLORS）をご用意しています。                    
+                                      
                 </td>                
             </tr>                 
         </tbody>
@@ -97,16 +99,17 @@ Template Name:001
     <br>
     <div class="column set-1">
     <strong><img src="<?php echo get_template_directory_uri(); ?>/images/h4.gif" alt="">&nbsp;商品詳細</strong><hr>
-    <p><strong>■ 素材：</strong>ナイロン(コラーゲン加工)SKINDY・ナイロン
-        <br><strong>■ サイズ：</strong>フリーサイズ
-        <br>全長 230mm × 中指の長さ 70mm × 手のひら周り 170mm (編んだ手袋なので、長さには差異があります）
-        <br><strong>■ カラーバリエーション：</strong>8色「CANDY 8 COLORS」
-        <br><strong>■ 原産地：</strong>日本
+    <p><strong></strong>
+        <p><strong></strong>
+        <br><strong>■: </strong>
         <br>
-        <br><strong>■ 受賞：</strong>2010年 福岡産業デザイン 奨励賞受賞
-        <br><strong>■ 知的財産：</strong>実用新案取得済・商標登録</p>
+        <br><strong>■:
+        <br><strong>■：</strong>
+        <br>
+        <br><strong>■:</strong>
+        <br><strong>■:</strong></p>
     </div>
-    <span>||　Glove & Socks　画期的な技術で生まれたグローブやソックスのラインナップ。</span><br><br>
+    <span></span><br><br>
      <table class="table">
         <tbody>
             <tr>
@@ -140,7 +143,7 @@ Template Name:001
         </tbody>
     </table><br>
     <span>
-    <a href="">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt=""></a>            
+    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt=""></a>            
     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/1_ic_linktop.png" align="right"></a>                
     </span>
     </div>
@@ -153,6 +156,7 @@ Template Name:001
       </div>
       <!-- / content body -->     
     </div>
-  </div>      
-     
- <?php get_footer(); ?>
+  </div>     
+
+
+<?php get_footer(); ?>

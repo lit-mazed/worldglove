@@ -6,15 +6,11 @@
     </div>
     <nav>
       <ul>
-        <li><a href="http://worldglove.localhost/" id="active">HOME&nbsp;</a></li>
-        <li><a href="#">TOPICS&nbsp;</a></li>
-        <li><a href="#">PRODUCTS&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/worldgolve/">WORLD GLOVE&nbsp;</a></li>        
-        <li><a href="http://worldglove.localhost/shoplist/">SHOP LIST&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/manufacture/" >MANUFACTURE&nbsp;</a></li>
-        <li><a href="contact.html">CONTACT&nbsp;</a></li>
-        <li><a href="contact.html">ONLINE SHOP&nbsp;</a></li>
-        <li><a href="https://www.facebook.com/WorldGlove" target="_blank">FACEBOOK&nbsp;</a></li>        
+        <ul>
+          <?php $post_id = 341 ; 
+          $queried_post = get_post($post_id); 
+          echo $queried_post->post_content;?>            
+      </ul> 
       </ul>
     </nav>
   </header>

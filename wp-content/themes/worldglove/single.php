@@ -1,16 +1,13 @@
-<?php
-/**
- * The template for displaying all single posts and attachments
- *
- * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
- */
-?>
-
-<?php get_header(); ?>
-
-		 <?php 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title><?php bloginfo('name'); ?></title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css">
+<?php wp_head(); ?>
+</head>
+<div class="wrapper row1">
+  <?php 
           if (have_posts()) :
               while (have_posts()) :
               the_post();
@@ -18,5 +15,12 @@
               endwhile;
           endif;
         ?>  
-
+</div>
 <?php get_footer(); ?>
+
+	
+
+
+
+		 
+

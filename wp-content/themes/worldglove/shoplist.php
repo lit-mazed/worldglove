@@ -1,26 +1,31 @@
 <?php
-/*
-Template Name:Shoplist
+/*        
+ Template Name:Shoplist
 */
 
  ?>
- <?php get_header(); ?>
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>SHOPLIST</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/nivo-slider.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/themes/default/default.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/shoplist.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<?php wp_head(); ?>
+</head>
+<body>
 <div class="wrapper row1">   
   <header id="header" class="clear">  
     <div id="hgroup">     
     </div>
     <nav>
       <ul>
-        <li><a href="http://worldglove.localhost/">HOME&nbsp;</a></li>
-        <li><a href="#">TOPICS&nbsp;</a></li>
-        <li><a href="#">PRODUCTS&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/worldgolve/">WORLD GLOVE&nbsp;</a></li>        
-        <li><a href="http://worldglove.localhost/shoplist/" id="active">SHOP LIST&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/manufacture/" >MANUFACTURE&nbsp;</a></li>
-        <li><a href="#">CONTACT&nbsp;</a></li>
-        <li><a href="#">ONLINE SHOP&nbsp;</a></li>
-        <li><a href="https://www.facebook.com/WorldGlove" target="_blank">FACEBOOK&nbsp;</a></li>        
+          <?php $post_id = 329 ; 
+          $queried_post = get_post($post_id); 
+          echo $queried_post->post_content;?>            
       </ul>
     </nav>
   </header>
@@ -34,13 +39,17 @@ Template Name:Shoplist
               <img src="<?php echo get_template_directory_uri(); ?>/images/shop-1.png" />
               <img src="<?php echo get_template_directory_uri(); ?>/images/shop-2.png" />              
             </div>              
-        </div>                
+        </div>
+        HOME &nbsp; &gt; &nbsp; SHOP LIST                
     </div>
     <aside id="left_column">
       <h2 class="title"></h2>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/company_sign.png" alt="">                    
-      <!-- aside -->
-    </aside>      
+      <img src="<?php echo get_template_directory_uri(); ?>/images/sign.png" alt="">
+            <?php $post_id = 309 ; 
+            $queried_post = get_post($post_id); 
+            echo $queried_post->post_content;?>            
+    </aside>
+      <!-- aside -->      
       <?php 
           if (have_posts()) :
               while (have_posts()) :
@@ -49,5 +58,4 @@ Template Name:Shoplist
               endwhile;
           endif;
         ?>  
-
  <?php get_footer(); ?>

@@ -4,23 +4,29 @@ Template Name:Worldglove
 */
 
  ?>
- <?php get_header(); ?>
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>WORLDGLOVE</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/nivo-slider.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/themes/default/default.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/worldglove.css" type="text/css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<?php wp_head(); ?>
+</head>
+<body>
 <div class="wrapper row1">   
   <header id="header" class="clear">   
     <div id="hgroup">     
     </div>
     <nav>
       <ul>
-        <li><a href="http://worldglove.localhost/">HOME&nbsp;</a></li>
-        <li><a href="#">TOPICS&nbsp;</a></li>
-        <li><a href="#">PRODUCTS&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/worldgolve/" id="active">WORLD GLOVE&nbsp;</a></li>        
-        <li><a href="http://worldglove.localhost/shoplist/">SHOP LIST&nbsp;</a></li>
-        <li><a href="http://worldglove.localhost/manufacture/" >MANUFACTURE&nbsp;</a></li>
-        <li><a href="contact.html">CONTACT&nbsp;</a></li>
-        <li><a href="contact.html">ONLINE SHOP&nbsp;</a></li>
-        <li><a href="https://www.facebook.com/WorldGlove" target="_blank">FACEBOOK&nbsp;</a></li>        
+          <?php $post_id = 326 ; 
+          $queried_post = get_post($post_id); 
+          echo $queried_post->post_content;?>          
       </ul>
     </nav>
   </header>

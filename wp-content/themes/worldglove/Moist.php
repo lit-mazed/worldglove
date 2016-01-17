@@ -68,6 +68,7 @@ Template Name:Moist
             </nav>
         </div>
     </aside>
+
   <div id="content">
   <div class="bmc"> 
     <span>||　What's Moist Coat</span><span ><a href=""></a><span><a href="" class="bmc-r">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt="" align="right"></a>   
@@ -75,8 +76,8 @@ Template Name:Moist
         <tbody>
             <tr>
                  <p><span class="img  noborder "><img src="<?php echo get_template_directory_uri(); ?>/images/moist.png" width="670px" alt="" style="display: inline;" kasperskylab_antibanner="on">
-                 </span><span>モイスト・コート「001 スタンダード」は、保湿力や通気性などの機能を充実させながら、デザインにもこだわった「潤い手袋」。<br>
-                 カラフルで楽しい8色のバリエーションの中から、気分やファッションに合わせて、いくつも持っていたいアイテムです。</span>
+                 </span><span>乾燥による手荒れに悩む方からのご要望に応えるために、そしていつどこでも、オシャレに、ハンドケア＆紫外線対策が出来るようにと、<br>
+                 ”着るコラーゲン”をコンセプトに、ワールドグローブが開発した手袋、それが、うるおい手袋「モイスト・コート®」です</span>
                  </p>
             </tr>
                 <td class="cmc set-1">

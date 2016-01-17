@@ -74,8 +74,9 @@ div.wrapper{
 	background-color:#FFFFFF;
 }
 .row3{
-	border-top:1px solid #DEDEDE;
+	border-top:1px solid #DEDEDE;	
 }
+
 .row3, .row3 a{
 	color:#979797; 
 	background-color:#FFFFFF;
@@ -219,4 +220,8 @@ span .company_01 {color:#333;}
 }
 #footer .line{
 	border-bottom: 1px dotted;
+}
+
+#footer .hr{
+	background-image: url("http://worldglove.localhost/wp-content/uploads/2016/01/hr-1.gif");
 }
