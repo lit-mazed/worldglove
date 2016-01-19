@@ -69,70 +69,29 @@ Template Name:002
         </div>
     </aside>
   <div id="content">
-  <div class="bmc"> 
-    <span>||　002 Light/B</span><span ><a href=""></a><span><a href="" class="bmc-r">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt="" align="right"></a>   
-    <table class="table">
-        <tbody>
-            <tr>
-                 <p><span class="img  noborder "><img src="<?php echo get_template_directory_uri(); ?>/images/002_1.png" width="670px" alt="" style="display: inline;" kasperskylab_antibanner="on">
-                 </span><span> シックなおしゃれに手袋も揃えたい方には、ブラックベースのモイスト・コート・ライト 002。<br>
-                冷房の効いたオフィスや冬のキーボード操作に薄くて手にフィットするからスタイリッシュなあなたにぴったりの「潤いアイテム」です。</span>
-                 </p>
+      <div class="bmc"> 
+            <span>||　002 Light/B</span><span ><a href=""></a><span><a href="" class="bmc-r">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt="" align="right"></a>   
+            
+            <?php while(have_posts()):the_post(); ?>
+                <table class="table"> <?php the_content(); ?></table>           
+            <?php endwhile; ?>    
+            <br>
+            
+            <?php while(have_posts()):the_post(); ?>
+                <div class="column set-1"><?php the_content(); ?></div>                    
+            <?php endwhile; ?>
 
-
-
-            </tr>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/002_2.png" width="210" height="165" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/0002.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                    シャープに、シックに、スタイリッシュに。<br>保湿手袋でもおしゃれを諦めたくない方へ。
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/002_3.jpg" width="210" height="165" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    薄手タイプなので、オフィスやご家庭での<br>細かい作業もスムーズです。                    
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/002_4.png" width="210" height="165" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    キュートなボックスのパッケージは<br>ギフトにもピッタリです。                    
-                </td>                
-            </tr>                 
-        </tbody>
-    </table>
-    <br>
-    <div class="column set-1">
-        <strong>&nbsp;商品詳細</strong><hr>
-        <p><strong>■素材：</strong>ナイロン100％
-        <br><strong>■サイズ：</strong>フリーサイズ
-        <br>■<strong>カラーバリエーション：</strong>3色（ブラック・ダークグレイ・パープル）
-        <br>
-        <br><strong>■ 原産地：</strong>日本
-        <br>
-        <br><strong>■ 受賞：</strong>2011年 福岡産業デザイン賞受賞
-        <br><strong>■ 知的財産：</strong>実用新案取得済・商標登録</p>
-    </div>    
-     <table class="table">
-        <tbody>
-            <tr>             
-                <td class="cmc set-1">            
-                <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/002_5.jpg" width="150" height="150" alt="" style="display: inline;"></a>ブラック</span></p> 
-                </td>
-                 <td class="cmc set-1">            
-                <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/002_6.jpg" width="150" height="150" alt="" style="display: inline;"></a>ダークグレイ</span></p> 
-                </td>
-                <td class="cmc set-1">            
-                <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/002_7.jpg" width="150" height="150" alt="" style="display: inline;"></a>パープル</span></p> 
-                </td>
-                <td class="cmc set-1" style="width:100%"   >            
-                
-                </td>
-            </tr>             
-        </tbody>
-    </table><br>
-    <span>
-    <a href="">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt=""></a>            
-    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/1_ic_linktop.png" align="right"></a>                
-    </span>
-    </div>
-
+             <table class="table">
+                <?php while(have_posts()):the_post(); ?>
+                <?php the_content(); ?>
+                <?php endwhile; ?>
+            </table><br>
+            <span>
+            
+            <a href="">この商品を購入する<img src="<?php echo get_template_directory_uri(); ?>/images/square_wht_right.png" alt=""></a>            
+            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/images/1_ic_linktop.png" align="right"></a>                
+            </span>
+        </div>
         </article>                            
         <p class="fl_right"><img src="<?php echo get_template_directory_uri(); ?>/images/footer_img.png" width="165" height="23" alt=""></p>  
           </footer>
