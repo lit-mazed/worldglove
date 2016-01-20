@@ -51,7 +51,7 @@ Template Name:product
 
     <nav>
         <ul>
-            <li class="li1"><a href="../products/index.html" data-mypid="136517" class="mn1 cr">∵  Line UP</a></li>
+            <li class="li1"><a href="http://worldglove.localhost/product/">∵  Line UP</a></li>
             <li class="li1"><a href="＃" class="mn1">∵  Moist Coat®</a>
                 <ul>
                     <li class="li2"><a href="../products/001.html" data-pid="136518" class="mn2">・ 001 Standard</a></li>
@@ -73,118 +73,10 @@ Template Name:product
         </ul>
     </nav>
 </div>
-    </aside>
-    <div id="content">
-  <div class="bmc">
-    <span>||　Moist Coat®　天然保湿成分コラーゲン・アミノ酸を一体化させた繊維で編んだ保湿手袋。</span><br><br>
-    <table class="table">
-        <tbody>
-            <tr>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-1.jpg" width="210" height="210" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/img_0059-2.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                    <h4><a href="../products/001.html" data-pid="136518">001 Standard　&gt;&gt;</a></h4>
-                    <p>カラフルでフレアなデザインが特長の
-                        <br>まさに｢カワイイのに潤う！｣の基本形。
-                        <br>モイスト･コート®スタンダード。</p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-2.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <h4><a href="../products/002.html" data-pid="136520">002 Light/B　&gt;&gt;</a></h4>
-                    <p>｢潤いたい｣でもシックなおしゃれが好き
-                        <br>という方にはコレ。ブラックベースの
-                        <br>モイスト･コート®ライト/B。</p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-3.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <h4><a href="../products/002.html" data-pid="136520">002 Light/B　&gt;&gt;</a></h4>
-                    <p>｢潤いたい｣でもシックなおしゃれが好き
-                        <br>という方にはコレ。ブラックベースの
-                        <br>モイスト･コート®ライト/B。</p>
-                </td>                
-            </tr> 
-            <tr>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-1.jpg" width="210" height="210" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/img_0059-2.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                    <h4><a href="../products/001.html" data-pid="136518">001 Standard　&gt;&gt;</a></h4>
-                    <p>カラフルでフレアなデザインが特長の
-                        <br>まさに｢カワイイのに潤う！｣の基本形。
-                        <br>モイスト･コート®スタンダード。</p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-2.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <h4><a href="../products/002.html" data-pid="136520">002 Light/B　&gt;&gt;</a></h4>
-                    <p>｢潤いたい｣でもシックなおしゃれが好き
-                        <br>という方にはコレ。ブラックベースの
-                        <br>モイスト･コート®ライト/B。</p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-3.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <h4><a href="../products/002.html" data-pid="136520">002 Light/B　&gt;&gt;</a></h4>
-                    <p>｢潤いたい｣でもシックなおしゃれが好き
-                        <br>という方にはコレ。ブラックベースの
-                        <br>モイスト･コート®ライト/B。</p>
-                </td>                
-            </tr>                       
-        </tbody>
-    </table>
-    <br><br><br>
-    <span>||　Glove & Socks　画期的な技術で生まれたグローブやソックスのラインナップ。</span><br><br>
-    <table class="table">
-        <tbody>
-            <tr>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-8.jpg" width="210" height="210" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/img_0059-2.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                    <strong><a href="../products/001.html" data-pid="136518">Touch Finger　&gt;&gt;</a></strong>
-                    <p>
-                    瞬時に指が出せて、スマホなどの操作に
-                    <br>最適なほか、精密作業を可能にする手袋
-                    <br>それが「タッチ・フィンガー®」です。   
-                    </p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-6.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                   <strong><a href="../products/001.html" data-pid="136518">Arquitect Cool 021　&gt;&gt;</a></strong>
-                    <p>
-                    保湿手袋の靴下バージョンが誕生。
-                    <br>保湿＋吸湿＋抗菌の３つの機能。
-                    <br>ファッショナブルな５本指ソックス
-                    <br>「アルキテクト クール 021」
-                    </p>
-                </td>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-7.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <strong><a href="../products/001.html" data-pid="136518">Arquitect Cool 022　&gt;&gt;</a></strong>
-                    <p>保湿手袋の靴下バージョンが誕生。
-                    <br>保湿＋吸湿＋抗菌の３つの機能。
-                    <br>ファッショナブルな５本指ソックス
-                    <br>「アルキテクト クール 021」
-                    </p>   
-                </tr> 
-            <tr>
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/001.html" data-pid="136518"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-9.jpg" width="210" height="210" alt="" style="display: inline;" kasperskylab_antibanner="on"><img src="../_src/1969664/img_0059-2.jpg" width="210" height="210" alt="" class="over-img" style="display: none;" kasperskylab_antibanner="on"></a></span></p>
-                   <strong><a href="../products/001.html" data-pid="136518">Arquitect Cool 5　&gt;&gt;</a></strong>
-                   <p>足本来の能力を最大限に引き出し、
-                   <br>立体的に成形。歩きを極めた一足。
-                   <br>次世代5本指靴下「アルキテクト5™」。
-                   </p>
-                    
-                <td class="cmc set-1">
-                    <p><span class="img  noborder "><a href="../products/002.html" data-pid="136520"><img src="<?php echo get_template_directory_uri(); ?>/images/photo-10.jpg" width="210" height="210" alt="" kasperskylab_antibanner="on" style="display: inline;"><img src="../_src/1969668/img_0052.jpg" width="210" height="210" alt="" class="over-img" kasperskylab_antibanner="on" style="display: none;"></a></span></p>
-                    <strong><a href="../products/001.html" data-pid="136518">MaxiCool 5　&gt;&gt;</a></strong>
-                    <p>伸縮性が高い繊維に美肌を作るマイクロ
-                    <br>カプセルを付着させた「マキシクール®」
-                    <br>手荒れを気にせず、作業できます。
-                    </p>
-                </td>
-                <td class="cmc set-1">
-                   
-                </td>                
-            </tr>                       
-        </tbody>
-    </table>
-
-</div>
+</aside>
+ <?php while(have_posts()):the_post(); ?>
+      <?php the_content(); ?>
+<?php endwhile; ?>
 
         </article>                            
         <p class="fl_right"><img src="<?php echo get_template_directory_uri(); ?>/images/footer_img.png" width="165" height="23" alt=""></p>  
