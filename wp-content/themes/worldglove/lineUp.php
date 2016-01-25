@@ -1,6 +1,6 @@
 <?php
 /*        
- Template Name:lineUp
+ Template Name:lineUp  
 */
 
  ?>
